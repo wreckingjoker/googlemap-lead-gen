@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Environment variables — never commit secrets
+.env
+.env.local
+.env.*.local
+.env.production
+
+# Build output
+dist/
+build/
+
+# Vite cache
+.vite/
+
+# Temp files
+.tmp/
+*.tmp
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/settings.json
+.idea/
+
+# Sensitive / credentials
+*.pem
+*.key
+*.p12
+*.pfx
+config.js
+secrets.*
+credentials.*
+jobs.csv
